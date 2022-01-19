@@ -1,0 +1,1 @@
+remove credentials only in env file in client and server

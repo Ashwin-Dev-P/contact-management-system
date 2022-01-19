@@ -1,0 +1,1 @@
+export const EDIT_BASIC_DETAILS = 'EDIT_BASIC_DETAILS';

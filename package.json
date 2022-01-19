@@ -1,0 +1,43 @@
+{
+  "name": "CMS",
+  "version": "1.0.0",
+  "description": "Contact Management System",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node index.js",
+    "client": "npm start --prefix client",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "test": "mocha 'tests/**/*.js'",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "proxy": "http://localhost:5000",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-regex": "^6.0.1",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.10.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.0.7",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "concurrently": "^6.3.0",
+    "cookie-parser": "^1.4.5",
+    "env-cmd": "^10.1.0",
+    "mocha": "^9.1.4",
+    "nodemon": "^2.0.13"
+  }
+}

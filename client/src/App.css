@@ -1,0 +1,308 @@
+/* Bootstrap error fix */
+html,
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  padding-left: 0%;
+}
+li {
+  list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navItem {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.main {
+  min-height: 88vh;
+}
+
+.myBorder {
+  /* Instagram border */
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1) !important;
+}
+
+.myHeading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.zoomOnHover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+/* Home */
+.homeLink {
+  width: 50%;
+}
+
+.homeDiv {
+  margin-top: 20%;
+}
+
+/*category list route*/
+.btnLink {
+  width: 50%;
+}
+
+.categoryListDiv {
+  margin-top: 10%;
+}
+
+/* Search */
+.searchWholeComponent {
+  padding: 2%;
+}
+
+.viewDetails {
+  width: 100%;
+  margin: 8% 0% 0% 0%;
+}
+
+#searchSettingDiv {
+  padding: 2%;
+  margin-bottom: 2%;
+  background-color: #fff;
+}
+
+#searchResultDiv {
+  padding: 2%;
+}
+
+.searchResultItemCard {
+  width: 84%;
+  margin: 7% 8% 7% 8%;
+}
+
+.searchResultItemCard:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.listSearchItem {
+  background-color: #fff;
+  margin: 0.1% 0% 0.1% 0%;
+  padding: 1% 0% 1% 0%;
+  text-align: center;
+}
+
+/* My contact */
+.myContactItem {
+  width: 84%;
+  margin: 7% 8% 7% 8%;
+}
+
+/* View details */
+.roundedImg {
+  border-radius: 50%;
+}
+
+.detailedViewImageDiv {
+  margin: 15% 0% 15% 0%;
+}
+
+/* My contact ends here */
+
+.LoginWholeComponent {
+  margin: 5% 0% 9% 0%;
+}
+
+.loginComponent {
+  margin-top: 7%;
+  margin-bottom: 30px;
+  border: 2px solid #fafafa;
+  padding: 10%;
+  background-color: #fff;
+}
+
+.signUpSuggestionDiv {
+  padding: 5% 0% 5% 0%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.otherSignInOptionsDiv {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.btnFacebook {
+  /* default css */
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: calc(0.27548vw + 12.71074px);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s, border-color 0.3s;
+  background-color: #4c69ba;
+  border: calc(0.06887vw + 0.67769px) solid #4c69ba;
+  padding: calc(0.34435vw + 13.38843px) calc(0.34435vw + 18.38843px);
+
+  /* Custom css */
+  width: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.error-div {
+  color: red;
+}
+
+.success-div {
+  color: green;
+}
+
+.about-us-img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+body {
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+}
+#info {
+  margin: 5% 0% 0% 0%;
+}
+
+#login {
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+#googleLoginButton {
+  /* my css */
+  width: 100%;
+  margin-bottom: 20px;
+
+  /* default css */
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.54);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 2px 0px,
+    rgba(0, 0, 0, 0.24) 0px 0px 0px 0px;
+  padding: 0px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+}
+
+#googleLoginSvg {
+  /* my css */
+  margin-left: auto;
+
+  /* default css */
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#googleLoginText {
+  /* default css */
+  padding: 10px 10px 10px 0px;
+  font-weight: 500;
+
+  /* my css */
+  margin-right: auto;
+}
+
+#info {
+  text-align: center;
+}
+
+#myNavBarBrand {
+  color: black;
+}
+
+#contactUsForm {
+  background: #fff;
+
+  padding: 3% 3% 3% 3%;
+  margin-top: 10%;
+}
+
+#editBasicDetailsForm {
+  background-color: #fff;
+  padding: 2%;
+}
+
+#editContactDetailsForm {
+  background-color: #fff;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+#settingsForm {
+  background-color: #fff;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+#selectAccountTypeForm {
+  background-color: #fff;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+nav {
+  /* Instagram border */
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1) !important;
+}
+#header {
+  margin-bottom: 100px;
+}
+#footer {
+  background-color: #fff;
+  padding: 2%;
+}
+
+.myDiv {
+  background-color: #fff;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* home */
+  .homeLink {
+    width: 100%;
+  }
+
+  /* category route*/
+  .btnLink {
+    width: 100%;
+  }
+
+  .searchResultItemCard {
+    width: 100%;
+    margin: 7% 0% 7% 0%;
+  }
+
+  .myContactItem {
+    width: 100%;
+    margin: 7% 0% 7% 0%;
+  }
+
+  #contactUsForm {
+    width: 92%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
